@@ -1,0 +1,31 @@
+PAINT_COLORS = {
+    'BLACK':    '#000000',
+    'WHITE':    '#FFFFFF',
+    'RED':      '#FF0000',
+    'LIME':     '#00FF00',
+    'BLUE':     '#0000FF',
+    'YELLOW':   '#FFFF00',
+    'CYAN':     '#00FFFF',
+    'MAGENTA':  '#FF00FF',
+    'SILVER':   '#C0C0C0',
+    'GRAY':     '#808080',
+    'MAROON':   '#800000',
+    'OLIVE':    '#808000'
+}
+
+DEFAULT_BUTTON_COLOR = PAINT_COLORS['SILVER']
+
+DEFAULT_CANVAS_SIZE = (23, 20)
+
+COLOR_SELECTOR_SIZE = 30
+
+WIDTH = 490
+HEIGHT = 540
+
+FPS = 15
+
+REDO_KEYCODE = 53
+UNDO_KEYCODE = 52
+
+CANVAS_SINGLE_PIXEL_CHANGE = 'pixel-change'
+CANVAS_BUCKET_FILL = 'bucket-fill'
